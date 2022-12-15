@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box; /*Позволяет считать правильную ширину и высоту*/
+    }
+
+    *{
+        padding: 0;
+        margin:0;
+        }
+        
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .clearfix {
+        width: 100%;
+        /*width: 1550px;*/
+        margin-left: 0;
+        background: rgba(0, 0, 0, 0.7);
+        position: fixed;
+        top: 0;
+    }
+    
+    .navbar {
+        max-width: 1280px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+     }
+         
+    .navbar-menu {
+        margin: 0px; /*Отключаем внешние отступы*/
+        padding: 0px; /*Отключаем внутренние отступы*/
+        list-style: none; /*Отключаем точки в списке*/
+        display: flex; /*Выровняли элементы списка в строку*/
+        text-align: center; /*Выровняли текст элементов по центру*/
+    }
+    
+    .navbar-item {
+        margin-left: -10px;  /*Делаем отступы для списка в хеадере*/
+        margin-right: 40px;  /*Делаем отступы для списка в хеадере*/
+        margin-bottom: 150px;  /*Делаем отступы для списка в хеадере*/
+    }
+    
+    .navbar-link {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    .navbar-text {
+        display: block; /*бдочный элемент занимающий всю строчку*/
+        color: #fff; /*Цвет текста белый*/
+        margin-bottom: 4px; /*Вниз отталкивает телефон, нижний отступ после фразы "Заказать звонок"*/
+        font-size: 14px;
+        line-height: 16px;
+    }
+    
+    .navbar-contacts {
+        text-align: right; /*Выравнивание текста по правому краю*/
+    }
+    
+    .navbar-phone {
+        font-weight: 700px;
+        font-size: 17px;
+        line-height: 20px;
+        text-decoration: none;
+        color: #fff; /*Цвет текста белый*/
+    }
+
+    .navbar a:hover {
+        text-decoration: underline;
+    }
+
+
+
+
+
+    .name {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 280px;
+        font-size: 70px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    #name2 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+    }
+
+    #name3 {
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-top: 300px;
+        text-decoration: underline;
+    }
+
+    #Text {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        margin-top: 50px;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    section {
+        background: rgba(123, 158, 137, 0.8);;
+    }
+
+    .Otstup {
+        padding-top: 250px;
+        padding-bottom: 250px;
+        background: none;
+    }
+
+    #name4 {
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-top: 300px;
+        text-decoration: underline;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #rabota1 {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #rabota2 {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #rabota3 {
+        margin-top: 50px;
+        margin-left: -23px;
+        margin-right: auto;
+    }
+
+    #name5 {
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-top: 300px;
+        text-decoration: underline;
+    }
+
+    #Kontakt1 {
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+
+    #Kontakt2 {
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+
+    #Kontakt3 {
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+
+    #Kontakt4 {
+        margin-top: 50px;
+        margin-left: 35px;
+    }
+
+    .Text2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: rgb(255, 254, 254);
+        margin-top: 30px;
+        text-align: center;
+        line-height: 30px;
+        margin-left: 13px;
+        margin-right: -35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Kontakte1 {
+        color: black;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Kontakte2 {
+        color: black;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Kontakte3 {
+        color: black;
+        font-size: 20px;
+        margin-left: 55px;
+        margin-right: 15px;
+    }
+
+    #Kontakte4 {
+        color: black;
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Email {
+        color: black;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Telegram {
+        color: black;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Phone {
+        color: black;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #Skype {
+        color: black;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    header,main,footer {
+    width: 1040px;
+    margin: 0 auto;
+}
+header{
+    height: 120px;
+      }
+main{
+    padding-bottom: 100px;
+    }
+body{
+    background-image: url("Rectangle1.svg"); /* указываем путь к файлу изображения, которое будет использоваться как задний фон */
+    background-position: center; /* центрируем задний фон */
+    background-size: cover; /*Растягивает изображение по ширине экрана*/
+    background-attachment: fixed;
+    background-color: #7B9E89;
+    font-family: 'Caveat', 'Verdana', 'Arial', 'Helvetica', cursive;
+}
+.main_img-float{
+    width: 100%;
+    margin-right: 100%;
+    float: left;
+}
+
+#footer1 {
+    width: 100%;
+    /*width: 1550px;*/
+    margin-left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    height: 100px;
+}
+
+.footer_block{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+    padding-top: 45px;
+}
+.footer_icons{
+    display: inline-block;
+    width: 335px;
+    text-align: right;
+}
+.footer_img{
+    width: 50px;
+    margin-left: 10px;
+}
